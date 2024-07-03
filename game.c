@@ -4,11 +4,11 @@
 
 int main(void){
   int i, h=0, t=0;
-  srand((unsigned int) time(NULL));
   
+  srand((unsigned int) time(NULL));
   for(i=0;i<3;i++){
     printf("Round %d: ", i+1);
-    if(rand() == 1){
+    if(rand()%2 == 1){
       printf("Heads\n");
       h++;
     }
