@@ -24,6 +24,8 @@ int main(void){
   }
 
   printf("Heads: %d, Tails: %d\n", h, t);
+  if(h>t) printf("Heads won!\n");
+  else printf("Tails won!\n");
   
   return 0;
 }
